@@ -33,4 +33,20 @@ This project implements a vehicle counting system using the YOLOv10 model for ob
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/car-counting.git
+   git clone https://github.com/proxi666/car-counting.git
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Ensure you have the necessary YOLOv10 weights (yolov10l.pt) in the root directory.
+
+## Usage
+1. Place the input video file (e.g., cars.mp4) in the project directory.
+2. Run the car_counter.py script:
+   ```bash
+   python car_counter.py
+3. The script will display the video feed with detected and tracked vehicles, along with the count of vehicles that have crossed the line.
+
+
+
+   
